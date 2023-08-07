@@ -33,7 +33,7 @@ def test_black_shape_is_taken_when_surrounded():
     assert goban.is_taken(1, 1) is True
     assert goban.is_taken(1, 2) is True
 
-
+# Todo: Fix in code
 def test_black_shape_is_not_taken_when_it_has_a_liberty():
     goban = Goban([
         'oo.',
